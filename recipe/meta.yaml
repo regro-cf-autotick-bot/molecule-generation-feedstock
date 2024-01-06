@@ -1,5 +1,5 @@
 {% set name = "molecule-generation" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/molecule_generation-{{ version }}.tar.gz
-  sha256: 30498145d9e5368d57de1c58c48ddb12113e3ca125765a19688b534cb15c6395
+  sha256: c5b6e477c760fe88a5be13f1fc0c71310d31be27695202bef047286a3695773f
 
 build:
   entry_points:
